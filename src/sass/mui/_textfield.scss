@@ -2,7 +2,7 @@
  * MUI Textfield Component
  */
 
-$xFormLabelLineHeight: floor($mui-label-font-size * 1.25);
+$xFormLabelLineHeight: $mui-label-font-size * 1.25;
 
 
 
@@ -21,7 +21,7 @@ $xFormLabelLineHeight: floor($mui-label-font-size * 1.25);
   }
 
   > textarea {
-    padding-top: 5px;
+    padding-top: mui-rem(5px);
   }
 
   > input,
