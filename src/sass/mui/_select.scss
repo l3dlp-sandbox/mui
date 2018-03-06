@@ -15,7 +15,7 @@ $xFormLabelLineHeight: floor($mui-label-font-size * 1.25);
     outline: 0;
 
     > select {
-      height: $mui-input-height + 1px;
+      height: calc(#{$mui-input-height} + 1px);
       margin-bottom: -1px;
       border-color: $mui-input-border-color-focus;
       border-width: 2px;
@@ -57,7 +57,7 @@ $xFormLabelLineHeight: floor($mui-label-font-size * 1.25);
 
     &:focus {
       outline: 0;
-      height: $mui-input-height + 1px;
+      height: calc(#{$mui-input-height} + 1px);
       margin-bottom: -1px;
       border-color: $mui-input-border-color-focus;
       border-width: 2px;
